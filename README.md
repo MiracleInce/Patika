@@ -1,0 +1,2 @@
+# java
+Ortalama Hesaplama
