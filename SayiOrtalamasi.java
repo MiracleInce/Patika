@@ -1,17 +1,19 @@
 import java.util.Scanner;
-public class SayiOrtalamasi {
+public class Main {
     public static void main(String[] args) {
-        Scanner giris=new Scanner(System.in);
-        int sayi,ort, j=0, i=0;
+        Scanner giris = new Scanner(System.in);
+        int sayi, j=-1, i=0, toplam=0,sayi1;
+        double ort;
         System.out.println("Lütfen bir sayi giriniz");
         sayi=giris.nextInt();
-        for (; i<sayi;i++){
-            if (i%12==0){
-                i+=i;
+        for (; i<=sayi;i++){
+            if (i%3==0 && i%4==0){
+                sayi1=i;
+                toplam+=sayi1;
                 j++;
             }
         }
-        ort=i/j;
+        ort=toplam/j;
         System.out.println(ort);
     }
 }
