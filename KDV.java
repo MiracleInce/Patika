@@ -15,12 +15,5 @@ public class KDV {
         System.out.println("KDV miktarı: "+KDVmiktar);
         System.out.println("KDV\'li tutar: "+sonuc);
 
-
-
-
-
-
-
-
     }
 }
